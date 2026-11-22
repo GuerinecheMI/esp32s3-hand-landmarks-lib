@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "src/esp_hand_tracker.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        esp-dl
+        esp_timer
+)

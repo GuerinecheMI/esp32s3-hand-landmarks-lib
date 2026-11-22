@@ -1,0 +1,23 @@
+{
+  "name": "ESP32-Hand-Tracker",
+  "version": "1.0.0",
+  "description": "Real-time 21-point hand landmark and gesture tracking library for ESP32-S3 using ESP-DL hardware acceleration.",
+  "keywords": "esp32, esp32-s3, hand-tracking, mediapipe, machine-learning, ai, computer-vision, esp-dl, gestures",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuerinecheMI/esp32s3-hand-landmarks-lib.git"
+  },
+  "authors": [
+    {
+      "name": "GuerinecheMI",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": "espressif32",
+  "build": {
+    "includeDir": "include",
+    "srcDir": "src"
+  }
+}
